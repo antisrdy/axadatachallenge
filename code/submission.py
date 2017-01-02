@@ -1,11 +1,5 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jan  2 17:56:29 2017
-
-@author: antoine
-"""
-
 import numpy as np
 import pandas as pd
 import os
