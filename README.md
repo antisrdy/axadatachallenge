@@ -1,5 +1,6 @@
 # AXA Data Challenge
 This challenge aimed at developping models for an inbound call forecasting system.
+
 Our methodology allowed us to score .66 (top 3) on the public leaderboard.
 
 ## Main lessons
