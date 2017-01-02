@@ -2,9 +2,7 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 import pandas as pd
-import os
-import time
-import matplotlib
+import sys
 from collections import OrderedDict
 
 class Assignment:
@@ -127,7 +125,7 @@ class Submission:
         return True
 
 if __name__ == "__main__":
-    sub = Submission(output_file='./submissions/20161231_1508.txt')
+    sub = Submission(output_file='./submissions/' + sys.argv[1] + '.txt')
     sub.process()
     sub.build_submission_final()
     sub.write_submission()
