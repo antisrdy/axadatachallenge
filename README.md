@@ -1,7 +1,7 @@
 # AXA Data Challenge
 This challenge aimed at developping models for an inbound call forecasting system.
 
-Our methodology allowed us to score .66 (top 3) on the public leaderboard.
+Our methodology allowed us to score .45 (top 3) on the public leaderboard.
 
 ## Main lessons
 - Regression: due to the special form of the loss function (exponential in underestimation, linear in overestimation), what worked best for us was to come back to loss function minimization, that is using optimization algorithm like L-BFGS-B
