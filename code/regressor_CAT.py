@@ -93,7 +93,8 @@ class Regressor(BaseEstimator):
 
 
     def predict(self, X):
-        predicted = self.clf.predict(X)predicted2 = np.zeros(X.shape[0])
+        predicted = self.clf.predict(X)
+        predicted2 = np.zeros(X.shape[0])
         for i in range(n_group):
             predicted2[X[:, 0] == i+1] = X[X[:, 0] == i+1][:, 1:].dot(self.w[i, :])
         return np.maximum(0, ((predicted + predicted2)/2 + 0.5).astype(int))
