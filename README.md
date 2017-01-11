@@ -33,3 +33,7 @@ To get both insights, run:
 ~~~
 python run_all.sh 1
 ~~~
+
+Once all predictions are computed (they are all already precomputed), to build the submission file, run:
+~~~
+python ./code/submission.py
