@@ -8,8 +8,8 @@ from collections import OrderedDict
 class Assignment:
     def __init__(self,
                  assignment_name,
-                 preds_full_range_dir='./preds_full_range/',
-                 submission_file='./submission.txt',
+                 preds_full_range_dir='./data/preds_full_range/',
+                 submission_file='./submission_init.txt',
                  verbose=True):
         
         self.assignment_name = assignment_name
@@ -71,9 +71,9 @@ class Assignment:
         
 class Submission:
     def __init__(self,
-                 submission_file='./submission.txt',
-                 preds_full_range_dir='./preds_full_range/',
-                 output_file='./submissions/1.txt',
+                 submission_file='./submission_init.txt',
+                 preds_full_range_dir='./data/preds_full_range/',
+                 output_file='./submissions.txt',
                  verbose=True):
         
         self.raw_submission = pd.read_csv(submission_file, sep='\t', parse_dates=['DATE'])
@@ -125,7 +125,7 @@ class Submission:
         return True
 
 if __name__ == "__main__":
-    sub = Submission(output_file='./submissions/' + sys.argv[1] + '.txt')
+    sub = Submission(output_file='./submissions.txt')
     sub.process()
     sub.build_submission_final()
     sub.write_submission()
