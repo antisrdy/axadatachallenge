@@ -34,7 +34,7 @@ To get both insights, run:
 ./run_all.sh 1
 ~~~
 
-Once all predictions are computed (they are all already precomputed in ./data/preds_full_range), run the following to build the submission file:
+Once all predictions are computed (they are already precomputed in ./data/preds_full_range on github), run the following to build the submission file:
 ~~~
 python ./code/submission.py
 ~~~
