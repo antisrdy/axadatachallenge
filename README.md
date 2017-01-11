@@ -5,6 +5,8 @@ Our methodology allowed us to score .39 on the public leaderboard.
 
 For more details about our methodology, please read the report located in the root directory.
 
+**Note that the zip dropped onto the Moodle platform does not enable to run code (due to size constraints). Minimum requirement to run some code is cloning the github repository, which comes with relevant data.**
+
 ## Main lessons
 - Regression: due to the special form of the loss function (exponential in underestimation, linear in overestimation), what worked best for us was to come back to loss function minimization, that is using optimization algorithm like L-BFGS-B. Later, we made estimations more robust with a voting system, including previous mentionned regressions and boosting methods.
 - Feature Engineering:
