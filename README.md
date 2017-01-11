@@ -23,15 +23,15 @@ cd axadatachallenge
 ~~~
 Either one may want to look at cross-validations results. Then run:
 ~~~
-python run_all.sh 0
+./run_all.sh 0
 ~~~
 Or, one may just want to get predictions. Then run:
 ~~~
-python run_all.sh 2
+./run_all.sh 2
 ~~~
 To get both insights, run:
 ~~~
-python run_all.sh 1
+./run_all.sh 1
 ~~~
 
 Once all predictions are computed (they are all already precomputed in ./data/preds_full_range), run the following to build the submission file:
