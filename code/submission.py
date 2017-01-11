@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 import pandas as pd
-import sys
 from collections import OrderedDict
 
 class Assignment:
@@ -71,7 +70,7 @@ class Assignment:
         
 class Submission:
     def __init__(self,
-                 submission_file='./submission_init.txt',
+                 submission_file='./data/submission_init.txt',
                  preds_full_range_dir='./data/preds_full_range/',
                  output_file='./submissions.txt',
                  verbose=True):
