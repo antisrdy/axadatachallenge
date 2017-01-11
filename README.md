@@ -3,7 +3,7 @@ This challenge aimed at developping models for an inbound call forecasting syste
 
 Our methodology allowed us to score .39 on the public leaderboard.
 
-For more details about methods, please read the report located in the root directory.
+For more details about our methodology, please read the report located in the root directory.
 
 ## Main lessons
 - Regression: due to the special form of the loss function (exponential in underestimation, linear in overestimation), what worked best for us was to come back to loss function minimization, that is using optimization algorithm like L-BFGS-B. Later, we made estimations more robust with a voting system, including previous mentionned regressions and boosting methods.
