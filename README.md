@@ -21,7 +21,7 @@ Open a terminal
 git clone https://github.com/antisrdy/axadatachallenge
 cd axadatachallenge
 ~~~
-One may look at cross-validations results. Then run:
+Either one may want to look at cross-validations results. Then run:
 ~~~
 python run_all.sh 0
 ~~~
