@@ -1,5 +1,5 @@
 # AXA Data Challenge
-This challenge aimed at developping models for an inbound call forecasting system.
+This challenge aimed at developping models for an inbound call forecasting system. More precisely, the idea was to predict the number of calls for 26 different call centers.
 
 Our methodology allowed us to score .39 on the public leaderboard.
 
@@ -12,6 +12,9 @@ For more details about our methodology, please read the report located in the ro
 - Feature Engineering:
     - Despite a pretty large dataset, including a large range of administrative features, we ended up using only time series related to the number of calls, that is we used only previous numbers of calls to predict future numbers of calls. It means our models mainly relied on seasonality utilization.
     - Main tricks were to play with combinations of previous days and weeks.
+
+Below is a Figure showing the kind of predictions we got (same kind of predictions apply for the remaining 25 centres).
+
 
 ## Requirements
 - Basics of python, including numpy, scipy.optimize, pandas, ...
