@@ -14,7 +14,7 @@ For more details about our methodology, please read the report located in the ro
     - Main tricks were to play with combinations of previous days and weeks.
 
 Below is a Figure showing the kind of predictions we got (same kind of predictions apply for the remaining 25 centres).
-
+![alt tag](https://github.com/antisrdy/axadatachallenge/blob/master/images/techinter.png)
 
 ## Requirements
 - Basics of python, including numpy, scipy.optimize, pandas, ...
