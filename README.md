@@ -1,7 +1,7 @@
 # AXA Data Challenge
 This challenge aimed at developping models for an inbound call forecasting system. More precisely, the idea was to predict the number of calls for 26 different call centers.
 
-Our methodology allowed us to score .39 on the public leaderboard.
+Our methodology allowed us to score **top 2** on the private leaderboard.
 
 For more details about our methodology, please read the report located in the root directory.
 
